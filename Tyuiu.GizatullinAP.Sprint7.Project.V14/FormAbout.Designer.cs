@@ -29,47 +29,57 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
-            this.label1 = new System.Windows.Forms.Label();
-            this.buttonOK_GAP = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            label1 = new Label();
+            buttonOK_GAP = new Button();
+            label2 = new Label();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(370, 153);
-            this.label1.TabIndex = 0;
-            this.label1.Text = resources.GetString("label1.Text");
+            label1.AutoSize = true;
+            label1.Location = new Point(10, 8);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 15);
+            label1.TabIndex = 0;
             // 
             // buttonOK_GAP
             // 
-            this.buttonOK_GAP.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonOK_GAP.Location = new System.Drawing.Point(430, 236);
-            this.buttonOK_GAP.Name = "buttonOK_GAP";
-            this.buttonOK_GAP.Size = new System.Drawing.Size(156, 53);
-            this.buttonOK_GAP.TabIndex = 1;
-            this.buttonOK_GAP.Text = "OK";
-            this.buttonOK_GAP.UseVisualStyleBackColor = false;
-            this.buttonOK_GAP.Click += new System.EventHandler(this.buttonOK_GAP_Click);
+            buttonOK_GAP.BackColor = SystemColors.ActiveCaption;
+            buttonOK_GAP.Location = new Point(376, 221);
+            buttonOK_GAP.Name = "buttonOK_GAP";
+            buttonOK_GAP.Size = new Size(136, 50);
+            buttonOK_GAP.TabIndex = 1;
+            buttonOK_GAP.Text = "OK";
+            buttonOK_GAP.UseVisualStyleBackColor = false;
+            buttonOK_GAP.Click += buttonOK_GAP_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(10, 23);
+            label2.Name = "label2";
+            label2.Size = new Size(492, 105);
+            label2.TabIndex = 2;
+            label2.Text = resources.GetString("label2.Text");
             // 
             // FormAbout
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(598, 301);
-            this.Controls.Add(this.buttonOK_GAP);
-            this.Controls.Add(this.label1);
-            this.Name = "FormAbout";
-            this.Text = "О программе";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(523, 282);
+            Controls.Add(label2);
+            Controls.Add(buttonOK_GAP);
+            Controls.Add(label1);
+            Name = "FormAbout";
+            Text = "Задание";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonOK_GAP;
+        private Label label2;
     }
 }

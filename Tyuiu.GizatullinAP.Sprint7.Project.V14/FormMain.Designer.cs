@@ -28,159 +28,161 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonHelp_GAP = new System.Windows.Forms.Button();
-            this.buttonOpen_GAP = new System.Windows.Forms.Button();
-            this.groupBox_GAP = new System.Windows.Forms.GroupBox();
-            this.buttonOp_GAP = new System.Windows.Forms.Button();
-            this.dataGridView_GAP = new System.Windows.Forms.DataGridView();
-            this.buttonAdd_GAP = new System.Windows.Forms.Button();
-            this.buttonSave_GAP = new System.Windows.Forms.Button();
-            this.buttonDelete_GAP = new System.Windows.Forms.Button();
-            this.labelSearch_GAP = new System.Windows.Forms.Label();
-            this.textBoxSearch_GAP = new System.Windows.Forms.TextBox();
-            this.buttonInfo_GAP = new System.Windows.Forms.Button();
-            this.openFileDialog_GAP = new System.Windows.Forms.OpenFileDialog();
-            this.saveFileDialog_GAP = new System.Windows.Forms.SaveFileDialog();
-            this.groupBox_GAP.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_GAP)).BeginInit();
-            this.SuspendLayout();
+            buttonHelp_GAP = new Button();
+            buttonOpen_GAP = new Button();
+            groupBox_GAP = new GroupBox();
+            buttonOp_GAP = new Button();
+            dataGridView_GAP = new DataGridView();
+            buttonAdd_GAP = new Button();
+            buttonSave_GAP = new Button();
+            buttonDelete_GAP = new Button();
+            labelSearch_GAP = new Label();
+            textBoxSearch_GAP = new TextBox();
+            buttonInfo_GAP = new Button();
+            openFileDialog_GAP = new OpenFileDialog();
+            saveFileDialog_GAP = new SaveFileDialog();
+            groupBox_GAP.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView_GAP).BeginInit();
+            SuspendLayout();
             // 
             // buttonHelp_GAP
             // 
-            this.buttonHelp_GAP.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.buttonHelp_GAP.Location = new System.Drawing.Point(98, 21);
-            this.buttonHelp_GAP.Name = "buttonHelp_GAP";
-            this.buttonHelp_GAP.Size = new System.Drawing.Size(67, 54);
-            this.buttonHelp_GAP.TabIndex = 0;
-            this.buttonHelp_GAP.UseVisualStyleBackColor = false;
-            this.buttonHelp_GAP.Click += new System.EventHandler(this.buttonHelp_GAP_Click);
+            buttonHelp_GAP.BackColor = SystemColors.ButtonFace;
+            buttonHelp_GAP.Location = new Point(86, 20);
+            buttonHelp_GAP.Name = "buttonHelp_GAP";
+            buttonHelp_GAP.Size = new Size(59, 51);
+            buttonHelp_GAP.TabIndex = 0;
+            buttonHelp_GAP.Text = "Задание";
+            buttonHelp_GAP.UseVisualStyleBackColor = false;
+            buttonHelp_GAP.Click += buttonHelp_GAP_Click;
             // 
             // buttonOpen_GAP
             // 
-            this.buttonOpen_GAP.Location = new System.Drawing.Point(828, 296);
-            this.buttonOpen_GAP.Name = "buttonOpen_GAP";
-            this.buttonOpen_GAP.Size = new System.Drawing.Size(75, 49);
-            this.buttonOpen_GAP.TabIndex = 2;
-            this.buttonOpen_GAP.Text = "Открыть";
-            this.buttonOpen_GAP.UseVisualStyleBackColor = true;
+            buttonOpen_GAP.Location = new Point(724, 278);
+            buttonOpen_GAP.Name = "buttonOpen_GAP";
+            buttonOpen_GAP.Size = new Size(66, 46);
+            buttonOpen_GAP.TabIndex = 2;
+            buttonOpen_GAP.Text = "Открыть";
+            buttonOpen_GAP.UseVisualStyleBackColor = true;
             // 
             // groupBox_GAP
             // 
-            this.groupBox_GAP.Controls.Add(this.buttonOp_GAP);
-            this.groupBox_GAP.Controls.Add(this.dataGridView_GAP);
-            this.groupBox_GAP.Controls.Add(this.buttonAdd_GAP);
-            this.groupBox_GAP.Controls.Add(this.buttonSave_GAP);
-            this.groupBox_GAP.Controls.Add(this.buttonDelete_GAP);
-            this.groupBox_GAP.Controls.Add(this.labelSearch_GAP);
-            this.groupBox_GAP.Controls.Add(this.textBoxSearch_GAP);
-            this.groupBox_GAP.Controls.Add(this.buttonHelp_GAP);
-            this.groupBox_GAP.Controls.Add(this.buttonInfo_GAP);
-            this.groupBox_GAP.Location = new System.Drawing.Point(12, 12);
-            this.groupBox_GAP.Name = "groupBox_GAP";
-            this.groupBox_GAP.Size = new System.Drawing.Size(1095, 575);
-            this.groupBox_GAP.TabIndex = 3;
-            this.groupBox_GAP.TabStop = false;
+            groupBox_GAP.Controls.Add(buttonOp_GAP);
+            groupBox_GAP.Controls.Add(dataGridView_GAP);
+            groupBox_GAP.Controls.Add(buttonAdd_GAP);
+            groupBox_GAP.Controls.Add(buttonSave_GAP);
+            groupBox_GAP.Controls.Add(buttonDelete_GAP);
+            groupBox_GAP.Controls.Add(labelSearch_GAP);
+            groupBox_GAP.Controls.Add(textBoxSearch_GAP);
+            groupBox_GAP.Controls.Add(buttonHelp_GAP);
+            groupBox_GAP.Controls.Add(buttonInfo_GAP);
+            groupBox_GAP.Location = new Point(10, 11);
+            groupBox_GAP.Name = "groupBox_GAP";
+            groupBox_GAP.Size = new Size(958, 539);
+            groupBox_GAP.TabIndex = 3;
+            groupBox_GAP.TabStop = false;
+            groupBox_GAP.Text = "Задание";
             // 
             // buttonOp_GAP
             // 
-            this.buttonOp_GAP.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonOp_GAP.Location = new System.Drawing.Point(192, 21);
-            this.buttonOp_GAP.Name = "buttonOp_GAP";
-            this.buttonOp_GAP.Size = new System.Drawing.Size(111, 56);
-            this.buttonOp_GAP.TabIndex = 9;
-            this.buttonOp_GAP.Text = "Открыть";
-            this.buttonOp_GAP.UseVisualStyleBackColor = false;
-            this.buttonOp_GAP.Click += new System.EventHandler(this.button_Click);
+            buttonOp_GAP.BackColor = SystemColors.ActiveCaption;
+            buttonOp_GAP.Location = new Point(168, 20);
+            buttonOp_GAP.Name = "buttonOp_GAP";
+            buttonOp_GAP.Size = new Size(97, 52);
+            buttonOp_GAP.TabIndex = 9;
+            buttonOp_GAP.Text = "Открыть";
+            buttonOp_GAP.UseVisualStyleBackColor = false;
+            buttonOp_GAP.Click += button_Click;
             // 
             // dataGridView_GAP
             // 
-            this.dataGridView_GAP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_GAP.Location = new System.Drawing.Point(9, 86);
-            this.dataGridView_GAP.Name = "dataGridView_GAP";
-            this.dataGridView_GAP.RowHeadersWidth = 51;
-            this.dataGridView_GAP.RowTemplate.Height = 24;
-            this.dataGridView_GAP.Size = new System.Drawing.Size(903, 468);
-            this.dataGridView_GAP.TabIndex = 8;
+            dataGridView_GAP.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView_GAP.Location = new Point(8, 81);
+            dataGridView_GAP.Name = "dataGridView_GAP";
+            dataGridView_GAP.RowHeadersWidth = 51;
+            dataGridView_GAP.RowTemplate.Height = 24;
+            dataGridView_GAP.Size = new Size(790, 439);
+            dataGridView_GAP.TabIndex = 8;
             // 
             // buttonAdd_GAP
             // 
-            this.buttonAdd_GAP.BackColor = System.Drawing.Color.Tan;
-            this.buttonAdd_GAP.Location = new System.Drawing.Point(560, 16);
-            this.buttonAdd_GAP.Name = "buttonAdd_GAP";
-            this.buttonAdd_GAP.Size = new System.Drawing.Size(120, 56);
-            this.buttonAdd_GAP.TabIndex = 7;
-            this.buttonAdd_GAP.Text = "Добавить строку";
-            this.buttonAdd_GAP.UseVisualStyleBackColor = false;
-            this.buttonAdd_GAP.Click += new System.EventHandler(this.buttonAdd_GAP_Click);
+            buttonAdd_GAP.BackColor = Color.Tan;
+            buttonAdd_GAP.Location = new Point(490, 15);
+            buttonAdd_GAP.Name = "buttonAdd_GAP";
+            buttonAdd_GAP.Size = new Size(105, 52);
+            buttonAdd_GAP.TabIndex = 7;
+            buttonAdd_GAP.Text = "Добавить строку";
+            buttonAdd_GAP.UseVisualStyleBackColor = false;
+            buttonAdd_GAP.Click += buttonAdd_GAP_Click;
             // 
             // buttonSave_GAP
             // 
-            this.buttonSave_GAP.BackColor = System.Drawing.Color.Chocolate;
-            this.buttonSave_GAP.Location = new System.Drawing.Point(945, 471);
-            this.buttonSave_GAP.Name = "buttonSave_GAP";
-            this.buttonSave_GAP.Size = new System.Drawing.Size(123, 70);
-            this.buttonSave_GAP.TabIndex = 6;
-            this.buttonSave_GAP.Text = "Сохранить";
-            this.buttonSave_GAP.UseVisualStyleBackColor = false;
-            this.buttonSave_GAP.Click += new System.EventHandler(this.buttonSave_GAP_Click);
+            buttonSave_GAP.BackColor = Color.Chocolate;
+            buttonSave_GAP.Location = new Point(827, 442);
+            buttonSave_GAP.Name = "buttonSave_GAP";
+            buttonSave_GAP.Size = new Size(108, 66);
+            buttonSave_GAP.TabIndex = 6;
+            buttonSave_GAP.Text = "Сохранить";
+            buttonSave_GAP.UseVisualStyleBackColor = false;
+            buttonSave_GAP.Click += buttonSave_GAP_Click;
             // 
             // buttonDelete_GAP
             // 
-            this.buttonDelete_GAP.BackColor = System.Drawing.Color.Sienna;
-            this.buttonDelete_GAP.Location = new System.Drawing.Point(702, 16);
-            this.buttonDelete_GAP.Name = "buttonDelete_GAP";
-            this.buttonDelete_GAP.Size = new System.Drawing.Size(116, 56);
-            this.buttonDelete_GAP.TabIndex = 5;
-            this.buttonDelete_GAP.Text = "Удалить строку";
-            this.buttonDelete_GAP.UseVisualStyleBackColor = false;
-            this.buttonDelete_GAP.Click += new System.EventHandler(this.buttonDelete_GAP_Click);
+            buttonDelete_GAP.BackColor = Color.Sienna;
+            buttonDelete_GAP.Location = new Point(614, 15);
+            buttonDelete_GAP.Name = "buttonDelete_GAP";
+            buttonDelete_GAP.Size = new Size(102, 52);
+            buttonDelete_GAP.TabIndex = 5;
+            buttonDelete_GAP.Text = "Удалить строку";
+            buttonDelete_GAP.UseVisualStyleBackColor = false;
+            buttonDelete_GAP.Click += buttonDelete_GAP_Click;
             // 
             // labelSearch_GAP
             // 
-            this.labelSearch_GAP.AutoSize = true;
-            this.labelSearch_GAP.Location = new System.Drawing.Point(921, 18);
-            this.labelSearch_GAP.Name = "labelSearch_GAP";
-            this.labelSearch_GAP.Size = new System.Drawing.Size(48, 17);
-            this.labelSearch_GAP.TabIndex = 4;
-            this.labelSearch_GAP.Text = "Поиск";
+            labelSearch_GAP.AutoSize = true;
+            labelSearch_GAP.Location = new Point(806, 17);
+            labelSearch_GAP.Name = "labelSearch_GAP";
+            labelSearch_GAP.Size = new Size(42, 15);
+            labelSearch_GAP.TabIndex = 4;
+            labelSearch_GAP.Text = "Поиск";
             // 
             // textBoxSearch_GAP
             // 
-            this.textBoxSearch_GAP.Location = new System.Drawing.Point(918, 53);
-            this.textBoxSearch_GAP.Multiline = true;
-            this.textBoxSearch_GAP.Name = "textBoxSearch_GAP";
-            this.textBoxSearch_GAP.Size = new System.Drawing.Size(163, 22);
-            this.textBoxSearch_GAP.TabIndex = 2;
-            this.textBoxSearch_GAP.TextChanged += new System.EventHandler(this.textBoxSearch_GAP_TextChanged);
+            textBoxSearch_GAP.Location = new Point(803, 50);
+            textBoxSearch_GAP.Multiline = true;
+            textBoxSearch_GAP.Name = "textBoxSearch_GAP";
+            textBoxSearch_GAP.Size = new Size(143, 21);
+            textBoxSearch_GAP.TabIndex = 2;
+            textBoxSearch_GAP.TextChanged += textBoxSearch_GAP_TextChanged;
             // 
             // buttonInfo_GAP
             // 
-            this.buttonInfo_GAP.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.buttonInfo_GAP.Location = new System.Drawing.Point(9, 21);
-            this.buttonInfo_GAP.Name = "buttonInfo_GAP";
-            this.buttonInfo_GAP.Size = new System.Drawing.Size(71, 54);
-            this.buttonInfo_GAP.TabIndex = 1;
-            this.buttonInfo_GAP.UseVisualStyleBackColor = false;
-            this.buttonInfo_GAP.Click += new System.EventHandler(this.buttonInfo_GAP_Click);
+            buttonInfo_GAP.BackColor = SystemColors.ButtonFace;
+            buttonInfo_GAP.Location = new Point(8, 20);
+            buttonInfo_GAP.Name = "buttonInfo_GAP";
+            buttonInfo_GAP.Size = new Size(62, 51);
+            buttonInfo_GAP.TabIndex = 1;
+            buttonInfo_GAP.Text = "Инфо";
+            buttonInfo_GAP.UseVisualStyleBackColor = false;
+            buttonInfo_GAP.Click += buttonInfo_GAP_Click;
             // 
             // openFileDialog_GAP
             // 
-            this.openFileDialog_GAP.FileName = "openFileDialog1";
+            openFileDialog_GAP.FileName = "openFileDialog1";
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1119, 599);
-            this.Controls.Add(this.groupBox_GAP);
-            this.Controls.Add(this.buttonOpen_GAP);
-            this.Name = "FormMain";
-            this.Text = "Общественный транспорт";
-            this.groupBox_GAP.ResumeLayout(false);
-            this.groupBox_GAP.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_GAP)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(979, 562);
+            Controls.Add(groupBox_GAP);
+            Controls.Add(buttonOpen_GAP);
+            Name = "FormMain";
+            Text = "Общественный транспорт";
+            groupBox_GAP.ResumeLayout(false);
+            groupBox_GAP.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView_GAP).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
