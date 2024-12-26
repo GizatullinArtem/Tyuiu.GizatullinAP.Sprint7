@@ -44,12 +44,12 @@
             // 
             // buttonOK_GAP
             // 
-            buttonOK_GAP.BackColor = SystemColors.ActiveCaption;
-            buttonOK_GAP.Location = new Point(376, 221);
+            buttonOK_GAP.BackColor = SystemColors.ButtonFace;
+            buttonOK_GAP.Image = (Image)resources.GetObject("buttonOK_GAP.Image");
+            buttonOK_GAP.Location = new Point(459, 220);
             buttonOK_GAP.Name = "buttonOK_GAP";
-            buttonOK_GAP.Size = new Size(136, 50);
+            buttonOK_GAP.Size = new Size(43, 50);
             buttonOK_GAP.TabIndex = 1;
-            buttonOK_GAP.Text = "OK";
             buttonOK_GAP.UseVisualStyleBackColor = false;
             buttonOK_GAP.Click += buttonOK_GAP_Click;
             // 

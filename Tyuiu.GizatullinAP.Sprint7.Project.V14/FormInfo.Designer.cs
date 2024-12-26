@@ -46,12 +46,12 @@
             // 
             // buttonOK_GAP
             // 
-            buttonOK_GAP.BackColor = SystemColors.ActiveCaption;
-            buttonOK_GAP.Location = new Point(380, 176);
+            buttonOK_GAP.BackColor = SystemColors.ButtonFace;
+            buttonOK_GAP.Image = (Image)resources.GetObject("buttonOK_GAP.Image");
+            buttonOK_GAP.Location = new Point(459, 165);
             buttonOK_GAP.Name = "buttonOK_GAP";
-            buttonOK_GAP.Size = new Size(136, 50);
+            buttonOK_GAP.Size = new Size(47, 50);
             buttonOK_GAP.TabIndex = 2;
-            buttonOK_GAP.Text = "OK";
             buttonOK_GAP.UseVisualStyleBackColor = false;
             buttonOK_GAP.Click += buttonOK_GAP_Click;
             // 
@@ -78,11 +78,12 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(527, 237);
+            ClientSize = new Size(528, 237);
             Controls.Add(label2);
             Controls.Add(pictureBox1);
             Controls.Add(buttonOK_GAP);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "FormInfo";
             Text = "Выполнил Гизатуллин А. П.  ИСПб-24-1 ";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

@@ -163,6 +163,16 @@ namespace Tyuiu.GizatullinAP.Sprint7.Project.V14
             FormInfo formInfo = new FormInfo();
             formInfo.ShowDialog();
         }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+
+        }
+
+        private void toolTip1_Popup_1(object sender, PopupEventArgs e)
+        {
+
+        }
     }
 }
 

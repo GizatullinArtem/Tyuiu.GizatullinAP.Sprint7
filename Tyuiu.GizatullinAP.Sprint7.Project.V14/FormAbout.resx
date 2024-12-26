@@ -117,6 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonOK_GAP.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAAOsAAADrASts18IAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
+        AAAB/0lEQVRYR+2Xu0odURSGvyAYG1GMN2yMMa0pvSCoCSEYDCYIEhtByCNoGpsEFUVLU0QM8QGsUqQR
+        bKwFLQwi9mISX0DjlQWzh31W1szZM2dKP/jhcPa/1toz+zpwTz4agT7gDfAa6AIeaVPRPAUWgSPgNkH7
+        wGegUwdXQgvwDbg2CibpH/AFaNbJsjIInBoFQnUGDOikobwHroykWXUOjOvk5XgVvUadLK+kEzJpg2gC
+        fhtJKpUMpeQuy3cjuCit6mIaWT6XRmBRugCe6KI+C0ZQHh0DH4AfRtsnXdQnbZMJ1a431vVG+56qGdNg
+        mLNqG6j1ck4anpuo1n/0G2YnWZI/gT9Gm9Mm8NDLN5Uyn555vhg5WLTR6WPkaUsYpq9AlZdrJnpS7XMa
+        9rwx7wyj06zn052Y89oeACtGvNaIFxPTaxidZPlIBx1yQP0Cpr3/5A2sG7GWur24GJm52qg7Mer5q73f
+        NQlLzlLiJBTkqXRAWieEOmDH8CbpUMWXsGwEaPmdaI0uIdqTpnlVs4THgUeweLbKLEtLEtehi2o2jMCi
+        tKaLWcjl8q8RXKmCj2NhKBprnSSvZEeU610mJgrqhOQY08lDeV7hcJwAL3TSrMickFtSyOpwksNLdsVC
+        P1bagSXgwCjoJJuMXGpSbz1FIJ9mPcBb4GV045XLxz2ZuQONvPkt1UR9SwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="label2.Text" xml:space="preserve">
     <value>ПРЕДМЕТНАЯ ОБЛАСТЬ: Городской транспорт
 
