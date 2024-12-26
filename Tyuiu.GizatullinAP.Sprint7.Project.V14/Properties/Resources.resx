@@ -121,4 +121,37 @@
   <data name="free-icon-info-1445402" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\free-icon-info-1445402.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="free-icon-tick-3952263" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-tick-3952263.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-information-807334" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-information-807334.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-save-7002186" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-save-7002186.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-magnifying-glass-25313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-magnifying-glass-25313.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-add-483320" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-add-483320.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-garbage-can-3141684" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-garbage-can-3141684.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-open-file-4847498" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-open-file-4847498.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-open-folder-5082610" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-open-folder-5082610.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-homework-10270616" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-homework-10270616.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-information-157933" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-information-157933.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-save-2550221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-save-2550221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

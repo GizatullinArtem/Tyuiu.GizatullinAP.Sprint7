@@ -63,9 +63,119 @@ namespace Tyuiu.GizatullinAP.Sprint7.Project.V14.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap free_icon_add_483320 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-add-483320", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_garbage_can_3141684 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-garbage-can-3141684", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_homework_10270616 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-homework-10270616", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap free_icon_info_1445402 {
             get {
                 object obj = ResourceManager.GetObject("free-icon-info-1445402", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_information_157933 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-information-157933", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_information_807334 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-information-807334", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_magnifying_glass_25313 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-magnifying-glass-25313", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_open_file_4847498 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-open-file-4847498", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_open_folder_5082610 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-open-folder-5082610", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_save_2550221 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-save-2550221", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_save_7002186 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-save-7002186", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_tick_3952263 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-tick-3952263", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

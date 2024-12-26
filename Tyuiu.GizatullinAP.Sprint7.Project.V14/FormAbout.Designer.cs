@@ -45,7 +45,7 @@
             // buttonOK_GAP
             // 
             buttonOK_GAP.BackColor = SystemColors.ButtonFace;
-            buttonOK_GAP.Image = (Image)resources.GetObject("buttonOK_GAP.Image");
+            buttonOK_GAP.Image = Properties.Resources.free_icon_tick_3952263;
             buttonOK_GAP.Location = new Point(459, 220);
             buttonOK_GAP.Name = "buttonOK_GAP";
             buttonOK_GAP.Size = new Size(43, 50);

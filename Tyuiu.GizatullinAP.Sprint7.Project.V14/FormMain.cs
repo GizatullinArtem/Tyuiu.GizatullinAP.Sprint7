@@ -72,7 +72,7 @@ namespace Tyuiu.GizatullinAP.Sprint7.Project.V14
             try
             {
                 saveFileDialog_GAP.FileName = ".csv";
-                saveFileDialog_GAP.InitialDirectory = @"C:\DataSprint5";
+                saveFileDialog_GAP.InitialDirectory = @"C:\Sprint7";
                 if (saveFileDialog_GAP.ShowDialog() == DialogResult.OK)
                 {
                     string savepath = saveFileDialog_GAP.FileName;

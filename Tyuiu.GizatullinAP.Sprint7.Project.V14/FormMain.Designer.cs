@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             buttonHelp_GAP = new Button();
             groupBox_GAP = new GroupBox();
             pictureSerch_GAP = new PictureBox();
@@ -52,7 +51,7 @@
             // buttonHelp_GAP
             // 
             buttonHelp_GAP.BackColor = SystemColors.ButtonFace;
-            buttonHelp_GAP.Image = (Image)resources.GetObject("buttonHelp_GAP.Image");
+            buttonHelp_GAP.Image = Properties.Resources.free_icon_homework_10270616;
             buttonHelp_GAP.Location = new Point(58, 22);
             buttonHelp_GAP.Name = "buttonHelp_GAP";
             buttonHelp_GAP.Size = new Size(41, 49);
@@ -80,7 +79,7 @@
             // 
             // pictureSerch_GAP
             // 
-            pictureSerch_GAP.Image = (Image)resources.GetObject("pictureSerch_GAP.Image");
+            pictureSerch_GAP.Image = Properties.Resources.free_icon_magnifying_glass_25313;
             pictureSerch_GAP.Location = new Point(401, 22);
             pictureSerch_GAP.Name = "pictureSerch_GAP";
             pictureSerch_GAP.Size = new Size(45, 49);
@@ -91,7 +90,7 @@
             // buttonOp_GAP
             // 
             buttonOp_GAP.BackColor = SystemColors.ButtonFace;
-            buttonOp_GAP.Image = (Image)resources.GetObject("buttonOp_GAP.Image");
+            buttonOp_GAP.Image = Properties.Resources.free_icon_open_file_4847498;
             buttonOp_GAP.Location = new Point(105, 22);
             buttonOp_GAP.Name = "buttonOp_GAP";
             buttonOp_GAP.Size = new Size(42, 49);
@@ -113,7 +112,7 @@
             // buttonAdd_GAP
             // 
             buttonAdd_GAP.BackColor = SystemColors.ButtonFace;
-            buttonAdd_GAP.Image = (Image)resources.GetObject("buttonAdd_GAP.Image");
+            buttonAdd_GAP.Image = Properties.Resources.free_icon_add_483320;
             buttonAdd_GAP.Location = new Point(203, 22);
             buttonAdd_GAP.Name = "buttonAdd_GAP";
             buttonAdd_GAP.Size = new Size(43, 49);
@@ -125,7 +124,7 @@
             // buttonSave_GAP
             // 
             buttonSave_GAP.BackColor = SystemColors.ButtonFace;
-            buttonSave_GAP.Image = (Image)resources.GetObject("buttonSave_GAP.Image");
+            buttonSave_GAP.Image = Properties.Resources.free_icon_save_7002186;
             buttonSave_GAP.ImageAlign = ContentAlignment.MiddleLeft;
             buttonSave_GAP.Location = new Point(452, 22);
             buttonSave_GAP.Name = "buttonSave_GAP";
@@ -139,7 +138,7 @@
             // buttonDelete_GAP
             // 
             buttonDelete_GAP.BackColor = SystemColors.ButtonFace;
-            buttonDelete_GAP.Image = (Image)resources.GetObject("buttonDelete_GAP.Image");
+            buttonDelete_GAP.Image = Properties.Resources.free_icon_garbage_can_3141684;
             buttonDelete_GAP.Location = new Point(153, 22);
             buttonDelete_GAP.Name = "buttonDelete_GAP";
             buttonDelete_GAP.Size = new Size(44, 49);
@@ -161,7 +160,7 @@
             // 
             buttonInfo_GAP.BackColor = SystemColors.ButtonFace;
             buttonInfo_GAP.ForeColor = SystemColors.ActiveCaptionText;
-            buttonInfo_GAP.Image = (Image)resources.GetObject("buttonInfo_GAP.Image");
+            buttonInfo_GAP.Image = Properties.Resources.free_icon_information_807334;
             buttonInfo_GAP.Location = new Point(8, 22);
             buttonInfo_GAP.Name = "buttonInfo_GAP";
             buttonInfo_GAP.Size = new Size(44, 49);
