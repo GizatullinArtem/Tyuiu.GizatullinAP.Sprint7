@@ -79,7 +79,7 @@ namespace Tyuiu.GizatullinAP.Sprint7.Project.V14
 
                     if (File.Exists(savepath)) File.Delete(savepath);
 
-                    int rows = dataGridView_GAP.RowCount;
+                    int rows = dataGridView_GAP.RowCount - 1; 
                     int columns = dataGridView_GAP.ColumnCount;
 
                     StringBuilder strBuilder = new StringBuilder();
@@ -88,19 +88,19 @@ namespace Tyuiu.GizatullinAP.Sprint7.Project.V14
                     {
                         for (int j = 0; j < columns; j++)
                         {
-                            strBuilder.Append(dataGridView_GAP.Rows[i].Cells[j].Value);
+                            strBuilder.Append(dataGridView_GAP.Rows[i].Cells[j].Value?.ToString() ?? string.Empty); 
 
                             if (j != columns - 1) strBuilder.Append(";");
                         }
                         strBuilder.AppendLine();
                     }
-                    File.WriteAllText(savepath, strBuilder.ToString(), Encoding.GetEncoding(1251));
+                    File.WriteAllText(savepath, strBuilder.ToString(), Encoding.UTF8);
                     MessageBox.Show("Файл успешно сохранен", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Файл не сохранен", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Файл не сохранен: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
