@@ -3,7 +3,7 @@ using System;
 
 using Tyuiu.GizatullinAP.Sprint7.Project.V14.Lib;
 using System.IO;
-using Tyuiu.GizatullinAP.Sprint7.Project.V14.Lib.Tyuiu.NikolaichukVS.Sprint7.Project.V14.Lib;
+using Tyuiu.GizatullinAP.Sprint7.Project.V14.Lib.Tyuiu.GizatullinAP.Sprint7.Project.V14.Lib;
 
 namespace Tyuiu.NikolaichukVS.Sprint7.Project.V14.Test
 {
