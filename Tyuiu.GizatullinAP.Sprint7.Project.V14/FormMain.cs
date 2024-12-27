@@ -79,7 +79,7 @@ namespace Tyuiu.GizatullinAP.Sprint7.Project.V14
 
                     if (File.Exists(savepath)) File.Delete(savepath);
 
-                    int rows = dataGridView_GAP.RowCount - 1; 
+                    int rows = dataGridView_GAP.RowCount - 1;
                     int columns = dataGridView_GAP.ColumnCount;
 
                     StringBuilder strBuilder = new StringBuilder();
@@ -88,7 +88,7 @@ namespace Tyuiu.GizatullinAP.Sprint7.Project.V14
                     {
                         for (int j = 0; j < columns; j++)
                         {
-                            strBuilder.Append(dataGridView_GAP.Rows[i].Cells[j].Value?.ToString() ?? string.Empty); 
+                            strBuilder.Append(dataGridView_GAP.Rows[i].Cells[j].Value?.ToString() ?? string.Empty);
 
                             if (j != columns - 1) strBuilder.Append(";");
                         }
@@ -170,6 +170,11 @@ namespace Tyuiu.GizatullinAP.Sprint7.Project.V14
         }
 
         private void toolTip1_Popup_1(object sender, PopupEventArgs e)
+        {
+
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
         {
 
         }
